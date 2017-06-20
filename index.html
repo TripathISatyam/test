@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Forecast Application</title>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   
+    <!-- Polyfill(s) for older browsers -->    
+    <script type="text/javascript" src="src/js/jquery.js"></script>
+    <link rel="stylesheet" href="src/css/common.css">   
+  </head>
+
+  <body> 
+
+  <div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4 class="tested">Weather forecast App</h4>
+      <div class="input-group ">
+        <input id="cityName"'type="text" class="form-control" laceholder="Enter only Bangalore or Delhi" >
+        
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button" >
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+     
+      <ul class="nav nav-pills nav-stacked" id='SelectedDates'> 
+         
+      </ul><br>      
+    </div>
+
+    <div class="col-sm-9" id="ContentDisplay">     
+      <h2 id="date">Sun 10 jun </h2>
+      <h5>
+          <span class="label label-danger day">Food</span> 
+          <span class="label label-primary night">Ipsum</span>
+          <span class="cloud"></span>
+      </h5><br>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>      
+      <p>some text can be displayed here</p>
+     </div>    
+  </div>
+</div>
+
+<footer class="container-fluid" id="footer">
+  <p>Copyright content for footer will come here</p>
+</footer>
+<script type="text/javascript" src="src/js/main.js"></script>
+    
+  </body>
+</html>
